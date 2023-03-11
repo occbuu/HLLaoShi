@@ -265,17 +265,16 @@ footer a:not(.nav-link) {
 
 .marker:after {
     content: "";
-    width: 125px;
-    height: 30px;
+    min-width: 125px;
+    height: 90px;
     position: absolute;
-    bottom: -25px;
+    bottom: -80px;
     right: -30px;
-    background-image: url("../images/marker.svg");
+    background-image: url("../images/wave-02.svg");
     background-repeat: no-repeat;
 }
 
 .marker-center:after {
-    bottom: -30px;
     left: 50%;
     margin-left: -60px;
 }
