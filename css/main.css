@@ -418,3 +418,11 @@ footer a:not(.nav-link) {
 #btnToggle {
     z-index: 99999;
 }
+
+.a-link {
+    text-decoration: none;
+}
+
+.lbreak {
+    line-break: anywhere;
+}
