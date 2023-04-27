@@ -426,3 +426,7 @@ footer a:not(.nav-link) {
 .lbreak {
     line-break: anywhere;
 }
+
+.custom-tooltip {
+    --bs-tooltip-bg: var(--bs-primary);
+}
