@@ -15,13 +15,16 @@
     </noscript>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <!-- <link href="./css/font-awesome/css/all.min.css?ver=1.2.0" rel="stylesheet"> -->
+
     <link href="assets/fontawesome/css/fontawesome.css" rel="stylesheet" />
     <link href="assets/fontawesome/css/brands.css" rel="stylesheet" />
     <link href="assets/fontawesome/css/solid.css" rel="stylesheet" />
-    <link href="./css/bootstrap-icons/bootstrap-icons.css?ver=1.2.0" rel="stylesheet">
-    <link href="./css/bootstrap.min.css?ver=1.2.0" rel="stylesheet">
-    <link href="./css/aos.css?ver=1.2.0" rel="stylesheet">
-    <link href="./css/main.css?ver=1.2.0" rel="stylesheet">
+    <link rel="stylesheet" href="./css/jquery-ui.css">
+    <link rel="stylesheet" href="./css/jquery.dataTables.min.css">
+    <link href="./css/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <link href="./css/aos.css" rel="stylesheet">
+    <link href="./css/main.css" rel="stylesheet">
     <noscript>
       <style type="text/css">
         [data-aos] {
@@ -93,7 +96,7 @@
                                 </div>
                                 <div class="col-sm-4">
                                     <p style="line-height: 1.05em;">
-                                        <a data-bs-toggle="tooltip" data-bs-custom-class="custom-tooltip" data-bs-html="true" title="<em>Tooltip</em> <u>with</u> <b>HTML</b>">
+                                        <a id="aTitle">
                                             A Proposed Load Balancer Using Naïve Bayes to Enhance Response Time on Cloud Computing
                                         </a>
                                         <br/>
@@ -103,10 +106,35 @@
                                     </p>
                                 </div>
                                 <div class="col-sm-2 text-end">
+                                    <a class="btn btn-outline-danger btn-sm" title="View" data-bs-toggle="modal" data-bs-target="#modalView">
+                                        <i class="fa fa-eye"></i>
+                                    </a>
                                     <a class="btn btn-outline-secondary btn-sm" href="#" title="Download"><i class="fa fa-download"></i></a>
                                     <a class="btn btn-sm btn-outline-info" href="#" title="Citation"><i class="fa fa-info"></i></a>
                                 </div>
                             </div>
+                            <table id="example" class="display" style="width:100%">
+                                <thead>
+                                    <tr>
+                                        <th>Id</th>
+                                        <th>Title</th>
+                                        <th>CoAuthors</th>
+                                        <th>Publisher</th>
+                                        <th>Type</th>
+                                        <th>Year</th>
+                                    </tr>
+                                </thead>
+                                <tfoot>
+                                    <tr>
+                                        <th>Id</th>
+                                        <th>Title</th>
+                                        <th>CoAuthors</th>
+                                        <th>Publisher</th>
+                                        <th>Type</th>
+                                        <th>Year</th>
+                                    </tr>
+                                </tfoot>
+                            </table>
                         </div>
                     </div>
                 </div>
@@ -139,15 +167,43 @@
             </footer>
         </div>
     </div>
+    <!-- Modal -->
+    <div id="modalView" class="modal fade" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-mdb-backdrop="true" data-mdb-keyboard="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content" style="height: 100%;">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" style="width: 100%; height: 100%;">
+                    <object style="width:100%;border:1px solid #000; height: 100%;" data="papers/001.pdf" type="application/pdf" internalinstanceid="9" title="">
+                        <p>
+                           Your browser isn't supporting embedded pdf files.
+                           You can download the file
+                           <a href="papers/001.pdf">here</a>.
+                        </p>
+                     </object>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <div id="scrolltop"><a class="btn btn-secondary" href="#top"><span class="icon"><i class="fas fa-angle-up fa-x"></i></span></a></div>
+    <script src="./scripts/jquery-3.5.1.js"></script>
+    <script src="./scripts/jquery.dataTables.min.js"></script>
+    <script src="./scripts/jquery-ui.js"></script>
+    <script src="./scripts/bootstrap.bundle.min.js"></script>
+    <script src="./scripts/aos.min.js?ver=1.2.0"></script>
     <script src="./scripts/imagesloaded.pkgd.min.js?ver=1.2.0"></script>
     <script src="./scripts/masonry.pkgd.min.js?ver=1.2.0"></script>
     <script src="./scripts/BigPicture.min.js?ver=1.2.0"></script>
     <script src="./scripts/purecounter.min.js?ver=1.2.0"></script>
-    <script src="./scripts/popper.min.js"></script>
-    <script src="./scripts/bootstrap.bundle.min.js?ver=1.2.0"></script>
-    <script src="./scripts/aos.min.js?ver=1.2.0"></script>
+    <!-- <script src="./scripts/popper.min.js"></script> -->
+
     <script src="./scripts/main.js?ver=1.2.0"></script>
+    <script src="./scripts/publication.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,21 @@
+﻿Id,TeacherId,SourceName,Description,SourceType,RefUrl,SourceLogoUrl,Note,ViewGroup,Status,CreatedBy,CreatedOn,ModifiedBy,ModifiedOn
+1,1,ORCiD - Connecting Research and Researchers,"ORCID provides a persistent digital identifier (an ORCID iD) that you own and control, and that distinguishes you from every other researcher. You can connect your iD with your professional information — affiliations, grants, publications, peer review, and more. You can use your iD to share your information with other systems, ensuring you get recognition for all your contributions, saving you time and hassle, and reducing the risk of errors.",Web,https://orcid.org/0000-0002-1133-1433,assets/img/logo/logo-orcid.svg,NULL,1,1,1,2019-12-01 00:00:00.000,NULL,NULL
+2,1,Publons,"Use Publons to track your publications, citation metrics, peer reviews, and journal editing work in a single, easy-to-maintain profile. 
+
+All your publications, instantly imported from Web of Science, ORCID, or your bibliographic reference manager (e.g. EndNote or Mendeley).
+
+Trusted citation metrics, automatically imported from the Web of Science Core Collection.
+
+Correct author attribution, with your unique ResearcherID automatically added to the publications you claim in Web of Science collections.
+
+Your verified peer review and journal editing history, powered by partnerships with thousands of scholarly journals.
+
+Downloadable record summarising your scholarly impact as an author, editor and peer reviewer.  ",Web,https://publons.com/researcher/3207281/hieu-le-ngoc/,assets/img/logo/logo-publons.png,NULL,1,1,1,2019-12-01 00:00:00.000,NULL,NULL
+3,1,Google Scholar,"Google Scholar provides a simple way to broadly search for scholarly literature. From one place, you can search across many disciplines and sources: articles, theses, books, abstracts and court opinions, from academic publishers, professional societies, online repositories, universities and other web sites. Google Scholar helps you find relevant work across the world of scholarly research.",Web,https://scholar.google.com/citations?user=38inQJwAAAAJ&hl=vi&authuser=4,assets/img/logo/logo-google-scholar.png,NULL,1,1,1,2019-12-01 00:00:00.000,NULL,NULL
+5,1,ResearchGate,"ResearchGate is the professional network for scientists and researchers. Over 15 million members from all over the world use it to share, discover, and discuss research. We're guided by our mission to connect the world of science and make research open to all.",Web,https://www.researchgate.net/profile/Hieu_Le61,assets/img/logo/logo-rg.png,"It started when two researchers discovered first-hand that collaborating with a friend or colleague on the other side of the world was no easy task.
+Founded in 2008 by physicians Dr. Ijad Madisch and Dr. Sören Hofmayer, and computer scientist Horst Fickenscher, ResearchGate has more than 15 million members today. We strive to help them make progress happen faster.",1,1,1,2019-12-01 00:00:00.000,NULL,NULL
+6,1,Scopus,"The world of scientific research is more demanding than ever before
+Whether it’s to discover funding information, advance your career, make strategic decisions, prove ROI or simply to save time, being able to quickly access and make sense of emerging trends, find collaborators and discover competitive insights is crucial.",Web,https://www.scopus.com/,assets/img/logo/logo-elsevier-wordmark.svg,NULL,1,1,1,2019-12-01 00:00:00.000,NULL,NULL
+7,1,IEEE Xplore.,"The IEEE Xplore digital library is a powerful resource for discovery of scientific and technical content published by the IEEE (Institute of Electrical and Electronics Engineers) and its publishing partners.
+
+IEEE Xplore provides web access to more than four-million full-text documents from some of the world's most highly-cited publications in electrical engineering, computer science, and electronics.",Web,https://ieeexplore.ieee.org/author/37086825363,assets/img/logo/logo-ieee-xplore.png,NULL,1,1,1,2019-12-01 00:00:00.000,NULL,NULL
